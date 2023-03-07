@@ -2,11 +2,11 @@
   "name": "developer-survey-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "survey.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node survey.js"
   },
-  "author": "",
+  "author": "mesel",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.1.4"
