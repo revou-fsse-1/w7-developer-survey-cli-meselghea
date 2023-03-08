@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "survey.js",
+  "type": "module",
   "scripts": {
-    "start": "node survey.js"
+    "start": "node starter/survey.js"
   },
-  "author": "mesel",
-  "license": "ISC",
+  "author": "Mesel",
+  "license": "ISC", 
   "dependencies": {
     "inquirer": "^9.1.4"
   }
