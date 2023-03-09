@@ -2,7 +2,9 @@
 
 - Assignment for Week 7: Programming — JavaScript, Node.js, npm, TypeScript
 
-Survey using CLI and JavaScript
+## Survey using CLI and JavaScript
+
+## Expetation: [Loom](https://www.loom.com/share/fddee318c86643ef9220bc83768f82fb)
 
 ## Prerequisites
 
@@ -12,7 +14,7 @@ Survey using CLI and JavaScript
 - JavaScript
 - Terminal
 
-You can use starter code from folder starter
+Code from folder starter :
 
 - What's your first name?
   Rules
