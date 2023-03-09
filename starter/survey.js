@@ -58,7 +58,7 @@ const questions = [
       if (answer < 1000000) {
         return "please fill the correct amount!";
       } else {
-        return  "Thank You for Your Response!";
+        return true;
       }
     },
   },
