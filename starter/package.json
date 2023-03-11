@@ -5,7 +5,7 @@
   "main": "survey.js",
   "type": "module",
   "scripts": {
-    "start": "node starter/survey.js"
+    "start": "node survey.js"
   },
   "author": "Mesel",
   "license": "ISC", 

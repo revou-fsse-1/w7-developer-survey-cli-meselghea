@@ -46,6 +46,9 @@ const questions = [
     message: "What JavaScript library do you know?",
     type: "checkbox",
     choices: ["React.js", "Vue", "Angular","Node.js", "jQuery", "D3.js"],
+  when(answers) {
+    return answers.experienceDeveloper === "yes";
+    },
   },
   {
     name: "desiredSalary",
@@ -53,10 +56,10 @@ const questions = [
     type: "input",
     validate(answer) {
       if (answer > 400000000) {
-        return "Are you sure? please fill your salary!";
+        return "The amount of salary is too high!";
       }
       if (answer < 1000000) {
-        return "please fill the correct amount!";
+        return "The amount of salary is too low!";
       } else {
         return true;
       }
